@@ -8,13 +8,13 @@
 include device/tecno/mt6789-common/BoardConfigCommon.mk
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := lg7n
+TARGET_BOOTLOADER_BOARD_NAME := li7
 
 # Boot image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 # Display
-TARGET_SCREEN_DENSITY := 296
+TARGET_SCREEN_DENSITY := 440
 
 # DTB
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
@@ -42,7 +42,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PATH)/vendor_dl
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/vendor_dlkm/*.ko)
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := LG7n,TECNO-LG7n,lg7n
+TARGET_OTA_ASSERT_DEVICE := LI7,TECNO-LI7,li7
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
@@ -54,4 +54,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 
 # Inherit the proprietary files
-include vendor/tecno/LG7n/BoardConfigVendor.mk
+include vendor/tecno/LI7/BoardConfigVendor.mk

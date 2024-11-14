@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=LG7n
+export DEVICE=LI7
 export DEVICE_COMMON=mt6789-common
 export VENDOR=tecno
 export VENDOR_COMMON=transsion

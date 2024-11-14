@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/LG7n
+DEVICE_PATH := device/tecno/LI7
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # AAPT
@@ -12,14 +12,14 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1640
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 2460
+TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 PRODUCT_PACKAGES += \
-	FrameworksResOverlayLG7n \
-    SettingsProviderOverlayLG7n \
-    SystemUIOverlayLG7n
+	FrameworksResOverlayLI7 \
+    SettingsProviderOverlayLI7 \
+    SystemUIOverlayLI7
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -36,4 +36,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/tecno/mt6789-common/common.mk)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tecno/LG7n/LG7n-vendor.mk)
+$(call inherit-product, vendor/tecno/LI7/LI7-vendor.mk)

@@ -1,19 +1,19 @@
 [
   {
     "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_vendor_tecno_LG7n",
+    "repository"  : "HAPPYGAMES222/vendor_tecno_LI7",
     "branch"      : "fourteen",
-    "target_path" : "vendor/tecno/LG7n"
+    "target_path" : "vendor/tecno/LI7"
   },
   {
     "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_vendor_tecno_mt6789-common",
+    "repository"  : "HAPPYGAMES222/android_vendor_tecno_mt6789-common",
     "branch"      : "fourteen",
     "target_path" : "vendor/tecno/mt6789-common"
   },
   {
     "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_device_tecno_mt6789-common",
+    "repository"  : "HAPPYGAMES222/android_device_tecno_mt6789-common",
     "branch"      : "fourteen",
     "target_path" : "device/tecno/mt6789-common"
   },
@@ -25,9 +25,9 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "Anything-at-25-00/device_tecno_lg7n_kernel",
+    "repository"  : "Anything-at-25-00/android_device_tecno_LI7-kernel",
     "branch"      : "lineage-21",
-    "target_path" : "device/tecno/LG7n-kernel"
+    "target_path" : "device/tecno/LI7-kernel"
   },
   {
     "remote"      : "github",

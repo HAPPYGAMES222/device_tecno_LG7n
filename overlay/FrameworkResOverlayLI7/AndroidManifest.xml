@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.overlay.pova4">
+    package="android.overlay.pova6">
 
     <overlay
         android:isStatic="true"
